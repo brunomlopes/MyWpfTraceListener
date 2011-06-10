@@ -63,7 +63,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="AppBootstrapper.cs" />
+    <Compile Include="DebugMonitor.cs" />
     <Compile Include="IShell.cs" />
+    <Compile Include="LogMessage.cs" />
+    <Compile Include="LogMessageConverter.cs" />
     <Compile Include="ShellViewModel.cs" />
     <Compile Include="TraceViewModel.cs" />
     <Compile Include="App.xaml.cs">
